@@ -1,0 +1,6 @@
+{
+  "places": [
+    { "name": "Example Primary School", "latitude": 12.345678, "longitude": 45.678900, "tags": ["Project1", "Northtown"] },
+    { "name": "Example High School", "latitude": 12.350000, "longitude": 45.690000, "tags": ["Project1", "Southtown"] }
+  ]
+}

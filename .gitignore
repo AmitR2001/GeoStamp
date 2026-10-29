@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# --- GeoStamp repository rules (prepare_github.sh) ---
+# Android Studio and Gradle
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+# Keep the Gradle wrapper (the build needs it)
+!gradle/wrapper/gradle-wrapper.jar
+# Signing secrets: never commit these
+*.jks
+*.keystore
+keystore.properties
+# The build-kit scripts hold the full source plus personal data, and the logs and notes are private
+setup_geostamp.sh
+setup_iteration_*.sh
+prepare_github.sh
+run_iteration*.sh
+APP_BUILD_PROMPT.md
+BUILD_KIT_README.md
+BUILD_PROGRESS.md
+iteration_logs/
+# Your own places list (see docs/seed_places.example.json)
+app/src/main/assets/seed_places.json
